@@ -1,5 +1,5 @@
 ======================
-Cookiecutter PyPackage
+This is Xiaoquan Kong's customed Cookiecutter PyPackage
 ======================
 
 .. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
@@ -53,7 +53,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/howl-anderson/my-cookiecutter-pypackage.git
 
 Then:
 
