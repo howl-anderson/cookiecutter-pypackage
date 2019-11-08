@@ -1,6 +1,6 @@
-======================
-This is Xiaoquan Kong's customed Cookiecutter PyPackage
-======================
+=======================================================
+This is Xiaoquan Kong's bespoke Cookiecutter PyPackage
+=======================================================
 
 .. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
      :target: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/
