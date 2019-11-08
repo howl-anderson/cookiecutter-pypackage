@@ -50,8 +50,15 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr htmlcov/
 	rm -fr .pytest_cache
 
-lint: ## check style with flake8
+formatter: ## format code inplace with balck
+	black {{ cookiecutter.project_slug }} tests
+
+lint: ## check style with flake8 and black
 	flake8 {{ cookiecutter.project_slug }} tests
+	black --check {{ cookiecutter.project_slug }} tests
+
+types: ## check typine issue with pytype
+	pytype --keep-going seq2annotation
 
 test: ## run tests quickly with the default Python
 {%- if cookiecutter.use_pytest == 'y' %}
