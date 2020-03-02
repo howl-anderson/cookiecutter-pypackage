@@ -4,3 +4,11 @@ wheel
 black
 flake8
 pytype
+
+# for spacemacs
+ptvsd
+autoflake
+importmagic
+epc
+flake8
+ptvsd
