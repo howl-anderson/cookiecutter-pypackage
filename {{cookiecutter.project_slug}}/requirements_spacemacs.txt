@@ -1,0 +1,7 @@
+autoflake
+ptvsd>=4.2
+flake8
+pytest
+importmagic
+epc
+isort

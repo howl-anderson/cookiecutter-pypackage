@@ -1,0 +1,4 @@
+{% if cookiecutter.use_pytest == 'y' -%}
+pytest
+pytest-runner
+pytest-datadir{% endif %}
